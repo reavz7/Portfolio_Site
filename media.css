@@ -85,6 +85,9 @@
       flex-direction: column;
       gap: 40px;
     }
+    .social-media{
+  justify-content: center;
+    }
     
     .line {
       width: 4px;
@@ -106,4 +109,36 @@
       left: -15px;
       transform: translateY(-50%) rotate(-90deg);
     }
+    .projects-flex {
+      grid-template-columns: 1fr;
+    }
+    
+    .project-card {
+      max-width: 100%;
+    }
+    .project-image-container {
+      height: 400px;
+    } 
+    footer{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-author{
+      font-size: .8rem;
+    } 
+    .footer-email{
+      font-size: .8rem;
+    }
+  }
+  @media (max-width: 468px) { 
+    .projects-flex {
+      grid-template-columns: 1fr;
+    }
+    
+    .project-card {
+      max-width: 100%;
+    }
+    .project-image-container {
+      height: 250px;
+    } 
   }
