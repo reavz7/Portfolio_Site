@@ -356,46 +356,47 @@ box-shadow: 1px 1px 63px 7px rgb(51, 25, 146);
       z-index: 2;
     }
     
-    .tech-name {
-      margin-top: 10px;
-      font-weight: bold;
-      color: var(--light-color);
-    }
-    
-    .current-position {
-      position: relative;
-    }
-    
-    .current-position::before {
-      content: "I'M HERE";
-      position: absolute;
-      top: -45px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: var(--accent-color);
-      color: var(--main-color);
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 12px;
-      font-weight: bold;
-      white-space: nowrap;
-    }
-    
-    .current-position::after {
-      content: "";
-      position: absolute;
-      top: -15px;
-      left: 50%;
-      transform: translateX(-50%);
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-top: 8px solid var(--accent-color);
-    }
-    
-    .current-position img {
-      border-color: oklch(0.558 0.288 302.321);
-      box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
-    }
+   .tech-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--light-color);
+}
+
+.current-position {
+  position: relative;
+}
+
+.current-position::before {
+  content: "I'M HERE";
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.current-position::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--accent-color);
+}
+
+.current-position img {
+  border-color: oklch(0.558 0.288 302.321);
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
 
 @keyframes slideDown {
   from {
@@ -553,6 +554,21 @@ box-shadow: 1px 1px 63px 7px rgb(51, 25, 146);
 .mysql{
   background-color: orange;
 }
+.csharp {
+  background-color: #68217a80; /* fiolet Microsoft C# */
+}
+
+.dotnet {
+  background-color: #644ac28a; /* typowy niebieski .NET */
+}
+
+.ef {
+  background-color: #5c2d9191; /* odcień Entity Framework */
+}
+
+.mssql {
+  background-color: #cc2a27c9; /* czerwony MS SQL */
+}
 
 
 
@@ -617,6 +633,9 @@ box-shadow: 1px 1px 63px 7px rgb(51, 25, 146);
   font-size: 14px;
   color: #888;
 }
+
+
+
 
 
 
